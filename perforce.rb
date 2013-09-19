@@ -6,11 +6,11 @@ class Perforce < Formula
   if MacOS.prefer_64_bit?
     url 'http://filehost.perforce.com/perforce/r13.1/bin.darwin90x86_64/p4'
     version '2013.1.659207-x86_64'
-    sha1 '77737480a93bb68d4874c4d242e42680cbd045e5'
+    sha1 '1963ba02c5b3b53135ba42c8c8791ff7'
   else
     url 'http://filehost.perforce.com/perforce/r13.1/bin.darwin90x86/p4'
     version '2013.1.659207-x86'
-    sha1 '4913a1d2dd9758190ede81d950d27d58ae4c2fce'
+    sha1 '1963ba02c5b3b53135ba42c8c8791ff7'
   end
 
   def install
