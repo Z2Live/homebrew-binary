@@ -6,7 +6,7 @@ class PerforceServer < Formula
   if MacOS.prefer_64_bit?
     url 'http://filehost.perforce.com/perforce/r12.2/bin.darwin90x86_64/p4d'
     version '2012.2.631250-x86_64'
-    sha1 '21d5a904321a95026fe65890b9d9cb4043eaf84c'
+    sha1 'e47e8491b211739a1ec32d89b1f817e7480bbcd3'
   else
     url 'http://filehost.perforce.com/perforce/r12.2/bin.darwin90x86/p4d'
     version '2012.2.631250-x86'
